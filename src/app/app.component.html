@@ -1,4 +1,13 @@
 <hello name="{{ name }}"></hello>
 <p>
   Start editing to see some magic happen :)
+  <br/>
+  <br/> 
+  {{namaglobal}}
+  <br/>
+  <a routerLink="/login">LOGIN</a>
+  <br/>
+  <input type="text" [(ngModel)]="textnama"/>
+  <button (click)="OPENHALLOGIN()">HOME BUTTON</button>
+  <router-outlet></router-outlet>
 </p>
